@@ -65,7 +65,7 @@ h1{
 }
 .sparkle{
   fill: white;
-  animation: eyes-bigger 3s infinite; 
+  animation: eyes-bigger 3s infinite;
 }
 
 .eyes{
@@ -112,6 +112,19 @@ h1{
   }
 }
 
+#empty-tomato {
+overflow: hidden;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+#filling-tomato {
+/*   visibility: hidden;  */
+  width: 1%;
+  height: 200px;
+  background-color: red;
+}
 
 
 

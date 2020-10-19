@@ -4,7 +4,7 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
   <meta charset="utf-8">
   <title></title>
@@ -16,13 +16,13 @@
   <h1>Pomodoro</h1>
 
   <div id="task-input" class="page">
-    <p >How long do you want each work session to be (minutes)?</p>
+    <p>How long do you want each work session to be (minutes)?</p>
     <input class="work-time in-box" type="number" name="" value="">
     <br>
-    <p >How long do you want you want each break to be (minutes)?</p>
+    <p>How long do you want you want each break to be (minutes)?</p>
     <input class="break-time in-box" type="number" name="" value="">
     <br>
-    <p >How many tasks?</p>
+    <p>How many tasks?</p>
     <input class="how-many in-box" type="number" name="" value="">
     <br>
     <button class="ok-task-input btn btn-outline-light" type="button" name="button">Ok</button>
@@ -43,9 +43,13 @@
     <button class="start-button btn btn-outline-light" type="button" name="button">start timer</button>
     <br>
   </div>
-<!-- ___________________________________________ WORKING DIV ___________________________________________ -->
+  <!-- ___________________________________________ WORKING DIV ___________________________________________ -->
   <div id="tasking" class="thing-hidden " style="background-color: magenta">
     <p class="task-message">task in session</p>
+
+    <div id="empty-tomato">
+      <div id="filling-tomato"></div>
+    </div>
   </div>
 
   <!-- ___________________________________________ BREAKING DIV ___________________________________________ -->
@@ -53,26 +57,26 @@
     <p class="break-message">WOO take a break for 5 minutes</p>
 
     <svg class="smiley" width="256" height="256" viewbox="0 0 256 256">
-  <defs>
-  <filter id="f1" x="0" y="0">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="150" />
-    </filter>
-  </defs>
+      <defs>
+        <filter id="f1" x="0" y="0">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="150" />
+        </filter>
+      </defs>
 
-  <circle class="face" cx="120" cy="128" r="98"/>
-<!--   <circle class="face" cx="128" cy="128" r="100"/>  -->
-  <circle class="face" cx="136" cy="128" r="100"/>
+      <circle class="face" cx="120" cy="128" r="98" />
+      <!--   <circle class="face" cx="128" cy="128" r="100"/>  -->
+      <circle class="face" cx="136" cy="128" r="100" />
 
-  <circle class="eyes left-eye" cx="100" cy="104" r="50"/>
-  <circle class="sparkle left-sparkle" cx="106" cy="98" r="10"/>
-   <circle class="blush left-blush" cx="90" cy="140" r="15"/>
+      <circle class="eyes left-eye" cx="100" cy="104" r="50" />
+      <circle class="sparkle left-sparkle" cx="106" cy="98" r="10" />
+      <circle class="blush left-blush" cx="90" cy="140" r="15" />
 
-  <circle class="eyes right-eye" cx="156" cy="104" r="50"/>
-  <circle class="sparkle right-sparkle" cx="162" cy="98" r="10" />
-  <circle class="blush right-blush" cx="166" cy="140" r="15" />
+      <circle class="eyes right-eye" cx="156" cy="104" r="50" />
+      <circle class="sparkle right-sparkle" cx="162" cy="98" r="10" />
+      <circle class="blush right-blush" cx="166" cy="140" r="15" />
 
-  <path class="mouth" d="M100, 160 Q128, 190 156, 160"/>
-</svg>
+      <path class="mouth" d="M100, 160 Q128, 190 156, 160" />
+    </svg>
   </div>
 
   <div id="you-done" class="thing-hidden ">
@@ -81,7 +85,7 @@
 
   <script src="index.js" charset="utf-8"></script>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 
 </html>
