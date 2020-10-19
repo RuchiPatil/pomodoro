@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Pomodoro</h1>
+
+  <div id="task-input" class="page">
+    <p >How long do you want each work session to be (minutes)?</p>
+    <input class="work-time in-box" type="number" name="" value="">
+    <br>
+    <p >How long do you want you want each break to be (minutes)?</p>
+    <input class="break-time in-box" type="number" name="" value="">
+    <br>
+    <p >How many tasks?</p>
+    <input class="how-many in-box" type="number" name="" value="">
+    <br>
+    <button class="ok-task-input btn btn-outline-light" type="button" name="button">Ok</button>
+  </div>
+
+  <div id="task-item-input" class="thing-hidden page">
+
+    <br>
+    <button class="ok-task-item-input btn btn-outline-light" type="button" name="button">Ok</button>
+    <br>
+
+  </div>
+
+  <div id="schedule" class="thing-hidden ">
+    <div class="tasks-list-container">
+    </div>
+    <br>
+    <button class="start-button btn btn-outline-light" type="button" name="button">start timer</button>
+    <br>
+  </div>
+
+  <div id="tasking" class="thing-hidden " style="background-color: magenta">
+    <p class="task-message">task in session</p>
+  </div>
+
+  <div id="breaking" class="thing-hidden " style="background-color: turquoise">
+    <p class="break-message">WOO take a break for 5 minutes</p>
+  </div>
+
+  <div id="you-done" class="thing-hidden ">
+    <p>you done!</p>
+  </div>
+
+  <script src="index.js" charset="utf-8"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>

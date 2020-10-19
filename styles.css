@@ -1,0 +1,66 @@
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+body {
+  color : #FFB7B0;
+  background-color: #A9C5D0;
+}
+
+h1{
+  background-color: #A9C5D0;
+  color: #F36870;
+  margin: 0;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  background-color: #A9C5D0;
+}
+.thing-hidden {
+  visibility: hidden;
+}
+
+.in-box {
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: #A9C5D0;
+  border-radius: 15px;
+  border: solid 1px #FFB7B0;
+
+}
+
+
+.ok-task-input {
+  margin-top: 80px;
+  color : #FFB7B0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* woo */
