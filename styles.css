@@ -53,7 +53,64 @@ h1{
   color : #FFB7B0;
 }
 
+/* ___________________________________________ BREAKING ___________________________________________ */
+.face{
+  fill: #eb8fb5;
+}
 
+.blush{
+  fill: #F60E76;
+  border: solid 1px;
+  filter: blur(5px);
+}
+.sparkle{
+  fill: white;
+  animation: eyes-bigger 3s infinite; 
+}
+
+.eyes{
+  animation: eyes-bigger 3s infinite;
+  fill: #242526;
+}
+
+.mouth{
+  animation: wow-smile 3s infinite;
+  clip-path: circle(30%);
+  fill: none;
+  stroke: maroon;
+  stroke-width: 100px;
+  stroke-linecap: round;
+}
+
+/* KEYFRAMES */
+@keyframes wow-smile{
+  0% {
+    clip-path: circle(25%);
+  }
+
+  50% {
+    clip-path: circle(50%);
+  }
+
+  100% {
+    clip-path(100%);
+    stroke-width: 12px;
+  }
+}
+
+@keyframes eyes-bigger{
+  0% {
+    clip-path: circle(16%);
+  }
+
+  50% {
+    clip-path: circle(19%);
+  }
+
+  100% {
+    clip-path: circle(14%);
+  }
+}
 
 
 

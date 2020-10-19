@@ -43,13 +43,36 @@
     <button class="start-button btn btn-outline-light" type="button" name="button">start timer</button>
     <br>
   </div>
-
+<!-- ___________________________________________ WORKING DIV ___________________________________________ -->
   <div id="tasking" class="thing-hidden " style="background-color: magenta">
     <p class="task-message">task in session</p>
   </div>
 
+  <!-- ___________________________________________ BREAKING DIV ___________________________________________ -->
   <div id="breaking" class="thing-hidden " style="background-color: turquoise">
     <p class="break-message">WOO take a break for 5 minutes</p>
+
+    <svg class="smiley" width="256" height="256" viewbox="0 0 256 256">
+  <defs>
+  <filter id="f1" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="150" />
+    </filter>
+  </defs>
+
+  <circle class="face" cx="120" cy="128" r="98"/>
+<!--   <circle class="face" cx="128" cy="128" r="100"/>  -->
+  <circle class="face" cx="136" cy="128" r="100"/>
+
+  <circle class="eyes left-eye" cx="100" cy="104" r="50"/>
+  <circle class="sparkle left-sparkle" cx="106" cy="98" r="10"/>
+   <circle class="blush left-blush" cx="90" cy="140" r="15"/>
+
+  <circle class="eyes right-eye" cx="156" cy="104" r="50"/>
+  <circle class="sparkle right-sparkle" cx="162" cy="98" r="10" />
+  <circle class="blush right-blush" cx="166" cy="140" r="15" />
+
+  <path class="mouth" d="M100, 160 Q128, 190 156, 160"/>
+</svg>
   </div>
 
   <div id="you-done" class="thing-hidden ">
