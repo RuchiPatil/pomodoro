@@ -17,12 +17,12 @@
 }
 
 body {
-  color : #FFB7B0;
-  background-color: #A9C5D0;
+  color : #803d37;
+  background-color: #e4eef2;
 }
 
 h1{
-  background-color: #A9C5D0;
+  background-color: #e4eef2;
   color: #F36870;
   margin: 0;
 }
@@ -43,14 +43,14 @@ h1{
   padding: 10px;
   background-color: #A9C5D0;
   border-radius: 15px;
-  border: solid 1px #FFB7B0;
+  border: solid 1px #803d37;
 
 }
 
 
 .ok-task-input {
   margin-top: 80px;
-  color : #FFB7B0;
+  color : #803d37;
 }
 
 /* ___________________________________________ BREAKING ___________________________________________ */
